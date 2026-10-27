@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080e1a"/>
+      <stop offset="100%" stop-color="#111d33"/>
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#16243b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)"/>
+
+  <text x="480" y="46" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" letter-spacing="1">TDMFORGE PRO (v1.0.0) — SYSTEM ARCHITECTURE</text>
+  <text x="480" y="72" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">CCSDS 503.0-B-2 &amp; ISO 22644 Radiometric Tracking Data &amp; Orbit Determination Studio</text>
+
+  <!-- Left Box: Radiometric Tracking Receivers -->
+  <rect x="40" y="110" width="260" height="360" rx="10" fill="url(#cardBg)" stroke="#1e293b" stroke-width="2"/>
+  <rect x="40" y="110" width="260" height="40" rx="10" fill="#1e293b"/>
+  <text x="170" y="136" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">TRACKING RECEIVERS</text>
+  <text x="60" y="180" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="13">• Sequential 2-Way Ranging</text>
+  <text x="75" y="202" fill="#64748b" font-family="monospace" font-size="11">RTLT Light-Time &amp; Range Units</text>
+  <text x="60" y="240" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="13">• Carrier Doppler Tracking</text>
+  <text x="75" y="262" fill="#64748b" font-family="monospace" font-size="11">Instantaneous &amp; Integrated Counts</text>
+  <text x="60" y="300" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="13">• Antenna Angle Encoders</text>
+  <text x="75" y="322" fill="#64748b" font-family="monospace" font-size="11">AZEL, RADEC, XEYN Topocentric</text>
+  <text x="60" y="360" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="13">• Surface Weather Stations</text>
+  <text x="75" y="382" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">Pressure, Temperature, Humidity</text>
+
+  <!-- Middle Box: Media & Orbit Determination Engines -->
+  <rect x="350" y="110" width="260" height="360" rx="10" fill="url(#cardBg)" stroke="#0284c7" stroke-width="2"/>
+  <rect x="350" y="110" width="260" height="40" rx="10" fill="#0284c7"/>
+  <text x="480" y="136" fill="#ffffff" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">CALIBRATION ENGINES</text>
+  <text x="370" y="180" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">1. Range &amp; Doppler Math</text>
+  <text x="385" y="202" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">Turnaround Ratios: 880/749, 240/221</text>
+  <text x="385" y="220" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">Range-Rate dRho/dt from Carrier Phase</text>
+  <text x="370" y="260" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">2. Atmospheric Corrections</text>
+  <text x="385" y="282" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">Saastamoinen Troposphere Wet/Dry</text>
+  <text x="385" y="300" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">Ionospheric TEC 1/f^2 Dispersion</text>
+  <text x="370" y="340" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">3. 10-Point Normative Auditor</text>
+  <text x="385" y="362" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">CCSDS 503.0-B-2 Rules 001 - 010</text>
+  <text x="385" y="380" fill="#10b981" font-family="system-ui, sans-serif" font-size="11">Automated 100% Tracking Pass Scorecard</text>
+
+  <!-- Right Box: Mission Deliverables -->
+  <rect x="660" y="110" width="260" height="360" rx="10" fill="url(#cardBg)" stroke="#1e293b" stroke-width="2"/>
+  <rect x="660" y="110" width="260" height="40" rx="10" fill="#1e293b"/>
+  <text x="790" y="136" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">MISSION PRODUCTS</text>
+  <text x="680" y="180" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="13">• Standard KVN TDM Output</text>
+  <text x="695" y="202" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">Cross-Support Radiometric Stream</text>
+  <text x="680" y="240" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="13">• Ground Polar Skyplot</text>
+  <text x="695" y="262" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">Live AZ/EL Antenna Horizon Beam</text>
+  <text x="680" y="300" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="13">• Python 3 CLI Utility</text>
+  <text x="695" y="322" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">Headless Flight Dynamics Automation</text>
+  <text x="680" y="360" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="13">• Orbit Determination Ready</text>
+  <text x="695" y="382" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">Direct Input to ODTK, GEODYN, Orekit</text>
+
+  <!-- Connectors -->
+  <line x1="300" y1="290" x2="350" y2="290" stroke="#38bdf8" stroke-width="2"/>
+  <line x1="610" y1="290" x2="660" y2="290" stroke="#38bdf8" stroke-width="2"/>
+</svg>
